@@ -3,12 +3,16 @@
 #
 # A instalação necessita de privilégios de root.
 
+required.packages <- c('openNLPdata', 'NLP', 'tm', 'bigmemory')
+repository <- 'http://cran.r-project.org'
+for (pkg in required.packages) {
+  if (!require(pkg, character.only = TRUE)) {
+    ignore <- install.packages(pkg, repos = repository, dependencies = TRUE)
+  }
+}
 
-repositorio <- "http://cran.r-project.org"
-ignore <- install.packages("openNLP", repos = repositorio)
-ignore <- install.packages("NLP", repos = repositorio)
-ignore <- install.packages("tm", repos = repositorio)
-ignore <- install.packages("bigmemory", repos = repositorio)
-# ignore <- install.packages("openNLPdata", repos = repositorio)
-ignore <- install.packages("http://datacube.wu.ac.at/src/contrib/openNLPmodels.pt_1.5-2.tar.gz",
-                           repos = NULL, type = "source")
+required.packages.src <- 'http://datacube.wu.ac.at/src/contrib/openNLPmodels.pt_1.5-2.tar.gz'
+if (!require(openNLPmodels.pt)) {
+  ignore <-  install.packages(required.packages.src, type = 'source',
+                              repos = NULL, dependencies = TRUE)
+}
