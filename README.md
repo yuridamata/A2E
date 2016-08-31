@@ -11,8 +11,15 @@ Instalação
 
 A [linguagem de programação R](https://www.r-project.org/), e os pacotes:
 * [OpenNLP Tools Interface](https://cran.r-project.org/web/packages/openNLP/)
+* [Natural Language Processing Interface](https://cran.r-project.org/web/packages/NLP/)
 * [Text Mining](https://cran.r-project.org/web/packages/tm/)
 * [Big Memory](https://cran.r-project.org/web/packages/bigmemory/)
+
+
+```bash
+sudo apt-get install r-base r-cran-rjava
+sudo Rscript InstalaPacotes.R
+```
 
 Publicações
 -----------
