@@ -15,11 +15,11 @@ O código é feito na [linguagem de programação R](https://www.r-project.org/)
 * [Text Mining](https://cran.r-project.org/web/packages/tm/)
 * [Big Memory](https://cran.r-project.org/web/packages/bigmemory/)
 
-A forma mais simples de preparar seu sistema para utilização do A2E é instalar as dependências básicas no seu sistema e executar o script [RequiredPackages.R](RequiredPackages.R). Supondo que você use uma versão do [Ubuntu](http://www.ubuntu.com), basta:
+A forma mais simples de preparar seu sistema para utilização do A2E é instalar as dependências básicas no seu sistema e executar o script [install.dependencies.R](R/install.dependencies.R). Supondo que você use uma versão do [Ubuntu](http://www.ubuntu.com), basta:
 
 ```bash
 sudo apt-get install r-base-core r-cran-rjava
-sudo Rscript RequiredPackages.R
+sudo Rscript install.dependencies.R
 ```
 
 Publicações
