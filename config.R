@@ -1,4 +1,4 @@
-caminhoConceitoMWE = "C:/Users/Andrew Yuri/Andrew Yuri da Silva Mata/UNB/Estudos em Inteligência Artificial/Minimum Working Example - A2E/Codigo Novo/conceitoMWE"
-caminhoConceitos = "C:/Users/Andrew Yuri/Andrew Yuri da Silva Mata/UNB/Estudos em Inteligência Artificial/Minimum Working Example - A2E/Codigo Novo/owasp"
+caminhoConceitoMWE = #caminho para o diretÃ³rio contendo os conceitos a serem utilizados no MWE
+caminhoConceitos = #caminho para o diretÃ³rio contendo os conceitos a serem utilizados
 
-caminhoTexto = "C:/Users/Andrew Yuri/Andrew Yuri da Silva Mata/UNB/Estudos em Inteligência Artificial/Minimum Working Example - A2E/Codigo Novo/textoMWE"
+caminhoTexto = #caminho para o diretÃ³rio contendo os textos a serem analizados
