@@ -24,7 +24,7 @@ extraiFeatures = function(matrizConceitos, modo){
     
     if(modo=="relativo"){
       #Função Floor() recebe um argumento de  matriz numérica e retorna um vetor contendo os maiores inteiros que não são maiores que o argumento da função.
-      count = floor(0.11*nnzero(aux2))
+    count = floor(0.11*nnzero(aux2))
     }
     
     
